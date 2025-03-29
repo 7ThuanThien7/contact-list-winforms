@@ -29,33 +29,34 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_Add = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 150);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh Sách Liên Hệ";
             // 
-            // btn_Add
+            // btnAdd
             // 
-            this.btn_Add.Location = new System.Drawing.Point(517, 241);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(75, 23);
-            this.btn_Add.TabIndex = 1;
-            this.btn_Add.Text = "Thêm Liên Hệ";
-            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btnAdd.Location = new System.Drawing.Point(185, 6);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(148, 23);
+            this.btnAdd.TabIndex = 1;
+            this.btnAdd.Text = "Thêm Liên Hệ";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_Add);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.Text = "MainForm";
@@ -67,7 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.Button btnAdd;
     }
 }
 
