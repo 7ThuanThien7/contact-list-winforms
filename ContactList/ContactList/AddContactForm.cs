@@ -21,8 +21,13 @@ namespace ContactList
         {
             string fullName = txtFullName.Text;
             string phoneNumber = txtPhoneNumber.Text;
+            string Email = txtEmail.Text;
+            MessageBox.Show($"Đã lưu liên hệ:\nHọ tên: {fullName}\nSố điện thoại: {phoneNumber}\nEmail: {Email}", "Thông báo");
+        }
 
-            MessageBox.Show($"Đã lưu liên hệ:\nHọ tên: {fullName}\nSố điện thoại: {phoneNumber}", "Thông báo");
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
