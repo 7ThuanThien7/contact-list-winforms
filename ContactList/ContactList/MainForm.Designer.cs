@@ -59,7 +59,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
